@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Constants (read from environment; DO NOT hardcode secrets)
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7847575855:AAHEu3qSXrMZAFH7n9hKmcSqI7oY2GfpeSE")
 WORKERS_BASE = os.getenv("WORKERS_BASE", "https://gd.rickgrimesflix.workers.dev")
-GDFLIX_API_KEY = os.getenv("GDFLIX_API_KEY", "")
+GDFLIX_API_KEY = os.getenv("GDFLIX_API_KEY", "6d40478a0e2c3517b48bcc531e1a1691")
 GDFLIX_API_BASE = os.getenv("GDFLIX_API_BASE", "https://gdlink.dev/v2")
 GDFLIX_FILE_BASE = os.getenv("GDFLIX_FILE_BASE", "https://gdlink.dev/file")
 TMDB_API_KEY = os.getenv("TMDB_API_KEY", "")
