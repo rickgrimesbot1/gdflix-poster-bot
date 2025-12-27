@@ -1,1 +1,1 @@
-web: python -m bot.run
+web: python -m rick.run
